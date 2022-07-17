@@ -10,60 +10,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style1.css" />
-
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
+
     <header class="page-head">
-        <div class="container">
-            <nav class="additional-nav">
-                <div class="logo-ref">
-                    <a class="logo" href="">Web<span class="logo-header">Studio</span>
-                    </a>
-                    <ul class="information list-portfolio">
-                        <li class="ref">
-                            <a class="linkers" href="./index.html">Студия</a>
+        <div class="container header_conteiner">
+            <nav class="main-nav list">
+                <div class="logo-links">
+                    <a class=" logo1" href="">Web<span class="logo1__accent">Studio</span></a>
+                    <ul class="site__nav site-nav list">
+                        <li class="item"><a class="site-nav__studio site-nav__studio--active"
+                                href="./index.html">Студия</a>
                         </li>
-                        <li class="ref">
-                            <a class="linkers-studio" href="./portfolio.html">Портфолио</a>
-                        </li>
-                        <li class="ref">
-                            <a class="linkers" href="">Контакты</a>
-                        </li>
+                        <li class="item"><a class="site-nav__info" href="./portfolio.html">Портфолио</a></li>
+                        <li class="item"><a class="site-nav__info" href="">Контакты</a></li>
                     </ul>
                 </div>
-                <ul class="contacts-list list-portfolio">
-                    <li class="mail-nav"><a class="mail-link" href="mailto:info@devstudio.com"><svg class="mail">
+                <ul class="contacts-list list">
+                    <li class="points"><a class="contacts-list__link1" href="mailto:info@devstudio.com">
+                            <svg class="contacts-list__mail list__icons">
                                 <use href="./photos/icons.svg#icon-mail"></use>
                             </svg>info@devstudio.com
+
                         </a>
                     </li>
-                    <li class="mail-nav"><a class="mail-link" href="tel:+380961111111"> <svg class="phone">
+                    <li class="points"><a class="contacts-list__link1" href="tel:+380961111111">
+                            <svg class="contacts-list__phone list__icons">
                                 <use href="./photos/icons.svg#icon-phone"></use>
                             </svg>+380961111111
                         </a>
                     </li>
+
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="section">
+        <section>
             <div class="container">
                 <h1 hidden>Портфолио</h1>
                 <ul class="btn-list list-portfolio">
                     <li class="button-type">
-                        <button class="current-color" type="button">Все</button>
+                        <button class="btn-current btn--current-color" type="button">Все</button>
                     </li>
-                    <li class="button-type"> <button class="current" type="button">Веб-сайты</button>
+                    <li class="button-type"> <button class="btn-current" type="button">Веб-сайты</button>
                     </li>
-                    <li class="button-type"> <button class="current" type="button">Приложения</button>
+                    <li class="button-type"> <button class="btn-current" type="button">Приложения</button>
                     </li>
-                    <li class="button-type"> <button class="current" type="button">Дизайн</button>
+                    <li class="button-type"> <button class="btn-current" type="button">Дизайн</button>
                     </li>
-                    <li class="button-type"> <button class="current" type="button">Маркетинг</button>
+                    <li class="button-type"> <button class="btn-current" type="button">Маркетинг</button>
                     </li>
 
                 </ul>
@@ -225,36 +224,32 @@
         </section>
     </main>
 
-
     <footer>
         <div class="container">
-            <address class="second-address">
-                <div class="additional-footer">
-                    <a class="logo" href="">Web<span class="logo-footer">Studio</span>
-                    </a>
-                    <ul class="contacts2 list-portfolio">
-                        <li class="page-reference-main">
-                            <a class="link1" href="https://goo.gl/maps/5YBFwy5f6ECoQT7T9" target="_blank"
+            <address class="main-address">
+                <div class="main-footer">
+                    <a class="logo1" href="">Web<span class=" logo-mainer">Studio</span></a>
+                    <ul class="information list">
+                        <li class="class-address-main">
+                            <a class="reference" href="https://goo.gl/maps/5YBFwy5f6ECoQT7T9" target="_blank"
                                 rel="noopener noreferrer">
                                 г.Киев,пр-т Леси Украинки,26
                             </a>
-                        </li>
 
-                        <li class="page-reference">
-                            <a class="link2" href="mailto:info@example.com">info@example.com</a>
                         </li>
-
-                        <li class="page-reference">
-                            <a class="link2" href="tel:+380991111111">+380991111111</a>
+                        <li class="class-address">
+                            <a class="phone-mail" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="class-address">
+                            <a class="phone-mail" href="tel:+380991111111">+380991111111</a>
                         </li>
                     </ul>
                 </div>
-
                 <!--Дополнительный Адресс-->
 
                 <div class="additional-address">
                     <p class="address-title">Присоединяйтесь</p>
-                    <ul class="address-apps list-portfolio">
+                    <ul class="address-apps list">
 
                         <li class="address-items">
                             <a class="address-media-links" href="" target="_blank" rel="noopener noreferrer"
@@ -294,13 +289,14 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="user-window">
                     <strong class="text-form">Подпишитесь на рассылку</strong>
                     <form class="input-list">
                         <label>
-                            <input class="input-form" type="email" name="email" placeholder="E-mail" />
+                            <input class="input-form" type="email" name="user-email" placeholder="E-mail" />
                         </label>
-                        <button type="submit" class=" btn-form">
+                        <button type="submit" class=" btn btn-form">
                             Подписаться
                             <svg class="icon-btn">
                                 <use href="./photos/icons.svg#icon-send"></use>
@@ -312,7 +308,6 @@
             </address>
         </div>
     </footer>
-
 </body>
 
 </html>

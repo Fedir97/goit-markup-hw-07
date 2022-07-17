@@ -1,0 +1,38 @@
+.thumb {
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumb__link {
+    height: 70px;
+    left: 0;
+    width: 70px;
+
+}
+
+.thumb__banner {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.11;
+    letter-spacing: 0.03em;
+    color: var(--type-color);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.thumb__description {
+    width: 270px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--mini-calor);
+}
