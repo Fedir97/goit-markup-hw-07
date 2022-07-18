@@ -104,7 +104,7 @@ section {
 }
 
 /*Site-nav*/
-.site__nav {
+.site-nav {
     display: flex;
     margin-left: 93px;
 }
@@ -524,7 +524,7 @@ section {
     margin-right: 0px;
 }
 
-.thumb__banner {
+.thumb-banner {
     margin-top: 30px;
     font-size: 14px;
     line-height: 1.11;
@@ -535,7 +535,7 @@ section {
 
 }
 
-.thumb__description {
+.thumb-description {
     width: 270px;
     height: 75px;
     font-weight: 400;

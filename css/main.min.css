@@ -348,7 +348,7 @@ section {
     width: 70px
 }
 
-.thumb__banner {
+.thumb-banner {
     margin-top: 30px;
     font-size: 14px;
     line-height: 1.11;
@@ -358,7 +358,7 @@ section {
     margin-bottom: 10px
 }
 
-.thumb__description {
+.thumb-description {
     width: 270px;
     height: 75px;
     font-weight: 400;
@@ -793,7 +793,7 @@ section {
     align-items: center
 }
 
-.site__nav {
+.site-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
