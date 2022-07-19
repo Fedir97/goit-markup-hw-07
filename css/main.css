@@ -262,7 +262,7 @@ section {
   color: white;
 }
 
-.btn--current-color {
+.btn-current--color {
   background-color: var(--additional-color);
   color: white;
 }
@@ -834,6 +834,25 @@ section {
 }
 .site-nav__studio--active {
   color: var(--additional-color);
+}
+
+.site-nav__portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: block;
+  position: relative;
+}
+.site-nav__portfolio::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  display: block;
+  position: absolute;
+  background-color: var(--additional-color);
+  bottom: -33px;
+  border-radius: 2px;
 }
 
 /*contacts-list*/
